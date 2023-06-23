@@ -1,7 +1,3 @@
-中文介绍见[WeActStudio博客](http://www.weact-tc.cn/2021/10/30/WeAct-LogicAnalyzerV1/)
-
-中文介绍见[README_CN](./README_CN.md)
-
 # WeAct LogicAnalyzer V1
 ![](./Images/WeAct-LogicAnalyzerV1-01.png)
 WeAct LogicAnalyzerV1 is a logic analyzer designed based on Cypress `CY7C68013A`/Corebai `CBM9002A` USB controller. It can collect 8 channels at the same time. The maximum sampling rate of each channel is `24Mhz`, and the maximum logical level supports 5.5V. The software adopts `sigrok-PulseView`, which is open source, and supports Linux, Windows, Mac OS X and other platforms. It supports more than 100 kinds of protocol analysis, and can add its own protocol analysis.
